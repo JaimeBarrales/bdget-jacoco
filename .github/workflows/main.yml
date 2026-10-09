@@ -70,8 +70,8 @@ jobs:
 
     env:
       # 👇 CAMBIA ESTOS DOS VALORES por los de TU proyecto en SonarCloud
-      SONAR_ORGANIZATION: TU_ORGANIZACION
-      SONAR_PROJECT_KEY: TU_ORGANIZACION_bdget-jacoco
+      SONAR_ORGANIZATION: jaimebarrales
+      SONAR_PROJECT_KEY: JaimeBarrales_bdget-jacoco
 
     steps:
       - name: Checkout code

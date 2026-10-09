@@ -25,8 +25,8 @@ jobs:
           java-version: '17'
           cache: maven
 
-      - name: Install Snyk CLI
-        run: npm install -g snyk  # Instala la CLI de Snyk
+       - name: Install Snyk CLI
+        uses: snyk/actions/setup@master  # Instala la CLI oficial de Snyk
 
       - name: Authenticate Snyk CLI
         env:
